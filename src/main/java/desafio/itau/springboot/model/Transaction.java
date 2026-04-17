@@ -5,20 +5,20 @@ import java.time.OffsetDateTime;
 public class Transaction {
 
     private double valor;
-    private OffsetDateTime datahora;
+    private OffsetDateTime dataHora;
 
 
-    public Transaction(final double valor, final OffsetDateTime datahora) {
+    public Transaction(final double valor, final OffsetDateTime dataHora) {
         this.valor = valor;
-        this.datahora = datahora;
+        this.dataHora = dataHora;
     }
 
     public double getValor() {
         return valor;
     }
 
-    public OffsetDateTime getDatahora() {
-        return datahora;
+    public OffsetDateTime getDataHora() {
+        return dataHora;
     }
 
 }

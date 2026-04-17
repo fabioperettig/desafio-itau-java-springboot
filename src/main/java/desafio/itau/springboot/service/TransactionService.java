@@ -24,11 +24,8 @@ public class TransactionService {
     public DoubleSummaryStatistics getStatistic(){
         OffsetDateTime now = OffsetDateTime.now();
             return transactions.stream()
-                    .filter(t -> t.getDatahora().isAfter(now.minusSeconds(60)))
+                    .filter(t -> t.getDataHora().isAfter(now.minusSeconds(60)))
                     .mapToDouble(Transaction::getValor)
                     .summaryStatistics();
     }
-
-    ///-----DAR COMMIT DE REGRA DE NEGÓCIO------
-
 }

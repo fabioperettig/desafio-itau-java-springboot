@@ -8,17 +8,16 @@ import java.time.OffsetDateTime;
 public class TransactionDTO {
 
     @NotNull
-    @Min(0)
     private Double valor;
 
     @NotNull
-    private OffsetDateTime datahora;
+    private OffsetDateTime dataHora;
 
     public Double getValor() {
         return valor;
     }
 
-    public OffsetDateTime getDatahora() {
-        return datahora;
+    public OffsetDateTime getDataHora() {
+        return dataHora;
     }
 }

@@ -1,0 +1,8 @@
+### Criar Transação
+POST http://localhost:8080/transacao
+Content-Type: application/json
+
+{
+  "valor": 123.45,
+  "dataHora": "2024-04-17T13:34:56.789Z"
+}
