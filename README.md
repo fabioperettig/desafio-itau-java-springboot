@@ -5,7 +5,7 @@
 
 # Desafio Itaú Backend
 
-Criar uma API REST que receba Transações e retorne Estatísticas sob essas transações. Para este desafio, a API foi criada utilizando Java e Spring Boot, seguindo regras predeterminadas. Confira os detalhes do desafio [aqui]().
+Criar uma API REST que receba Transações e retorne Estatísticas sob essas transações. Para este desafio, a API foi criada utilizando Java e Spring Boot, seguindo regras predeterminadas. Confira os detalhes do desafio [aqui](https://github.com/fabioperettig/desafio-itau-java-springboot/blob/main/REGRAS.md).
 
 ## ☕️ Estrutura
 

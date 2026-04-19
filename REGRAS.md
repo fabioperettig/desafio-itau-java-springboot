@@ -33,4 +33,4 @@ A transação não foi aceita por qualquer motivo (ex: 'transação com valor me
 A API não compreendeu a requisição do cliente;
 `````
 
-![Voltar ao README original](https://github.com/fabioperettig/desafio-itau-java-springboot/tree/main)
+↩️ [**Voltar ao README original.**](https://github.com/fabioperettig/desafio-itau-java-springboot/tree/main)
